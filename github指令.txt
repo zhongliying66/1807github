@@ -1,0 +1,43 @@
+git  
+	作为指令前缀 驱动 git 帮忙处理相应指令;
+git init 
+	初始化git;
+
+设置你的github属于谁;
+
+git config --global user.name "你的git名称"
+git config --global user.email "你的git验证邮箱"
+
+报错 : please tell me who you are; 
+
+git add 
+       把工作区文件放入暂存区之中
+
+git status 
+       查看暂存区状态 
+
+git commit  
+       把暂存区内容放进仓库中
+
+git reflog 
+       查看commit 创建的版本哈希值
+
+git reset --hard 哈希值     
+         版本回溯
+
+git remote add origin 你的仓库名
+         给你的远程仓库名改成别名（origin）
+
+git push -u origin master
+         将本地仓库推送到远程端
+
+git pull
+         拉取远端仓库的内容直接到工作区
+
+git clone 地址
+         克隆文件
+
+git add -A
+        将所有内容放到工作区里
+
+git commit -m "提交内容"
