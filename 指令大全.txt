@@ -1,0 +1,22 @@
+ls  展示当前文件夹下的所有文件;
+ls -a 表示展示 隐藏文件;
+
+pwd 展示当前路径 
+
+/c/Users/yanghuaizhi/Desktop/1807github
+
+mkdir 创建文件夹;
+
+rm -rf 文件夹名称表示删除对应文件;
+
+touch 文件名.后缀 创建出相应的文件;
+
+vim + 文件名 用命令行工具 进行文件查看;
+
+*****
+cd  进入路径指令;
+
+cd .. 返回上一层;
+cd filename/ 进入对应文件夹;
+
+
